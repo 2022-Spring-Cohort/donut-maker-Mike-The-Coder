@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Donut Clicker</title>
-  </head>
-  <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donut Clicker</title>
+  <link type="text/css" rel="stylesheet" href="cssStuff/layout.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<h1 class="header">Homer's Donuts!</h1>
+
+<body class="body">
+  <!-- <table>
+    
+    <th><p id="buyMultiplier" class="buyerButtonMulti">buyMultiplier</p></th>
+    
+    <th><p id="buyAutoClicker" class="buyerButtonAuto">BuyAutoClicker</p></th>
+  </table> -->
+  
+
+
+  <div class="centerthis">
+    <h3>Multipliers: x</h3>
+    <h3 id="multiplierNumber">MultiNumber</h3>
+  </div>
+<div class="centerthis">
+  <h3>Multiplier Cost: </h3>
+    <h3 id="multiCost">MultiCost</h3>
+  </div>
+  <div class="centerthis">
+    <h3>AutoClickers: </h3>
+    <h3 id="autoNumber">AutoNumber</h3>
+  </div>
+<div class="centerthis">
+  <h3>AutoClicker Cost: </h3>
+    <h3 id="autoCost">AutoCost</h3>
+  </div>
+
+
+  <div class="centerthis">
+    <button class="button-52 buyerButtonMulti" role="button">Multiplier</button>
+    <button class="button-52 buyerButtonAuto" role="button">AutoClicker</button>
+  </div>
+  <h2>
+    <p id="counter" class="numbers">ClickCount</p>
+  </h2>
+  <p><img class="clicker" src="pics/just-hand-homer.png" alt="Click the Donut"></p>
+  <p><img src="pics/just-arm-homer.png"></p>
+
+  legacy
+  <div class="container"></div>
+  <button class="clicker">Click me</button>
+
+
+
+  <script src="./app.js" type="module"></script>
+  <!-- <script src="./Donut.js"></script> -->
+</body>
+
 </html>
