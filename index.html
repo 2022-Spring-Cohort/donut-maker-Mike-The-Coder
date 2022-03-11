@@ -11,54 +11,76 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap" rel="stylesheet">
 </head>
+<div class="headerdiv">
+<div class="dropdown"> 
+  <button class="dropbtn">Homer's Donuts</button>
+  <div class="dropdown-content">
+  <a href="#">This is for the homies</a>
+  </div>
+</div>
+<div class="dropdown"> 
+  <button class="dropbtn">Inspiration</button>
+  <div class="dropdown-content">
+  <a href="#">Donut clicker is cool ok</a>
+
+  </div>
+</div>
+<div class="dropdown"> 
+  <button class="dropbtn">Contact Me!</button>
+  <div class="dropdown-content">
+  <a href="#">Forward all of your mail to 1600 Pennivania Ave</a>
+
+  </div>
+</div>
+</div>
+
 <h1 class="header">Homer's Donuts!</h1>
 
 <body class="body">
-  <!-- <table>
-    
-    <th><p id="buyMultiplier" class="buyerButtonMulti">buyMultiplier</p></th>
-    
-    <th><p id="buyAutoClicker" class="buyerButtonAuto">BuyAutoClicker</p></th>
-  </table> -->
-  
 
+  <div class="biggerdiv">
+    <div class="bigdiv1">
+      <div class="centerthis">
+        <h3>Multipliers: x</h3>
+        <h3 id="multiplierNumber">MultiNumber</h3>
+      </div>
+      <div class="centerthis">
+        <h3>Multiplier Cost: </h3>
+        <h3 id="multiCost">MultiCost</h3>
+      </div>
+      <div class="centerthis">
+        <h3>AutoClickers: </h3>
+        <h3 id="autoNumber">AutoNumber</h3>
+      </div>
+      <div class="centerthis">
+        <h3>AutoClicker Cost: </h3>
+        <h3 id="autoCost">AutoCost</h3>
+      </div>
+      <div class="centerthis">
+        <button class="button-52 buyerButtonMulti" role="button" id="buyerButtonMulti">Multiplier</button>
+        <button class="button-52 buyerButtonAuto" role="button" id="buyerButtonAuto">AutoClicker</button>
+      </div>
+    </div>
 
-  <div class="centerthis">
-    <h3>Multipliers: x</h3>
-    <h3 id="multiplierNumber">MultiNumber</h3>
+    <div class="bigdiv">
+      <h2>
+        <p id="counter" class="numbers">ClickCount</p>
+      </h2>
+    </div>
+
+    <div class="bigdiv">
+      <p><img class="clicker" src="pics/just-hand-homer.png" alt="Click the Donut"></p>
+      <p class="wrist"><img src="pics/just-arm-homer.png"></p>
+    </div>
   </div>
-<div class="centerthis">
-  <h3>Multiplier Cost: </h3>
-    <h3 id="multiCost">MultiCost</h3>
+
+  <div class="smalldiv centerthis">
+    <button class="btn resetButton">RESET
+
+    </button>
   </div>
-  <div class="centerthis">
-    <h3>AutoClickers: </h3>
-    <h3 id="autoNumber">AutoNumber</h3>
-  </div>
-<div class="centerthis">
-  <h3>AutoClicker Cost: </h3>
-    <h3 id="autoCost">AutoCost</h3>
-  </div>
-
-
-  <div class="centerthis">
-    <button class="button-52 buyerButtonMulti" role="button">Multiplier</button>
-    <button class="button-52 buyerButtonAuto" role="button">AutoClicker</button>
-  </div>
-  <h2>
-    <p id="counter" class="numbers">ClickCount</p>
-  </h2>
-  <p><img class="clicker" src="pics/just-hand-homer.png" alt="Click the Donut"></p>
-  <p><img src="pics/just-arm-homer.png"></p>
-
-  legacy
-  <div class="container"></div>
-  <button class="clicker">Click me</button>
-
-
 
   <script src="./app.js" type="module"></script>
-  <!-- <script src="./Donut.js"></script> -->
 </body>
 
 </html>
