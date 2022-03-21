@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+  }
+/*   new fonts
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rock Salt', cursive; */
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #2f64d6; */
+    
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.buyerButtonAuto{
+  background-color: #F14E28;
+}
+.buyerButtonMulti{
+  background-color: #f943f8;
+}
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #FF81C1;
+  }
+
+  .bigdiv1 {
+    background-color: #2f64d6;
+  }
+  table{
+    
+    display: flex;
+    justify-content: center;
+    
+  }
+  .centerthis{
+    display: flex;
+    justify-content: center;
+  }
+
+  .headerdiv{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  
+
+  .btn {
+    margin-top: -50px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #F14E28;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  <!-- HTML !-->
+  <button class="button-52" role="button">Button 52</button>
+  
+  /* CSS */
+  .button-52 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+.biggerdiv{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+  .button-52:after {
+    content: "";
+    
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .button-52:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-52 {
+      padding: 13px 50px 13px;
+    }
+  }
+
+
+
+  /* Style the header */
+  .header {
+    font-family: 'Rock Salt', cursive;
+    background-color: #f8db27;
+    padding: 30px;
+    text-align: center;
+    font-size: 75px;
+  }
+
+  h2{
+    font-size: 50px;
+    font-family: 'Rock Salt';
+  }
+
+  .numbers {
+    margin: 20px;
+  }
+
+  .wrist {
+    text-align: center;
+    margin: -20px;
+  }
+  
+  /* Container for flexboxes */
+  .row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Create three unequal columns that sits next to each other */
+  .column {
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Left and right column */
+  .column.side {
+     -webkit-flex: 1;
+     -ms-flex: 1;
+     flex: 1;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
+  /* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
